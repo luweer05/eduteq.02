@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000215;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+   overflow: hidden;
+}
+
+header {
+    margin: 1rem;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+
+.logo {
+  width: 483px;
+height: 241px;
+position: absolute;
+top: 5px;
+left: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.menina{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 55%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 90px;
+}
+
+h1 {
+    position: absolute;
+    left: 600px;
+    top: 30%;
+    font-size: 190px;
+    font-weight: 800;
+}
+
+h1 span {
+    background: linear-gradient(
+        90deg,
+        #0099ff,
+        #6c63ff,
+        #d946ef
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.crie{
+    position: absolute;
+    left: 600px;
+    top: 70%;
+     width: 4000rem;
+    font-size: 60px;
+     margin-bottom: 15px;
+    color: #B8C0D6;
+}
+
+.estude{
+    position: absolute;
+    left: 600px;
+    top: 65%;
+     width: 3000rem;
+    font-size: 60px;
+    color: #B8C0D6;
+}
+
+.linha {
+    width: 1000px;
+    height: 4px;
+    background-color:  #A855F7;
+    border-radius: 10px;
+    position: absolute;
+    left: 600px;
+    top: 58%;
+}
+
+button {
+    width: 750px;
+    height: 105px;
+    position: absolute;
+    left: 60rem;
+    top: 140rem;
+    background: #C61CFE; 
+    border-radius: 31px;
+    font-size: 50px;
+    color: #FFF;
+    cursor: pointer;
+}
+    
+a {
+   color: #FFF;
+   text-decoration: none;
+}
+
