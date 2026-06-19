@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,49 +5,35 @@
 }
 
 body {
+    margin: 0;
+    min-height: 100vh;
     background-color: #000215;
-    color: #FFF;
     font-family: "Inter", sans-serif;
-   overflow: hidden;
 }
 
-header {
-    margin: 1rem;
-    padding: 1.5rem;
-    gap: 2rem;
-}
 
-.logo {
-  width: 483px;
-height: 241px;
-position: absolute;
-top: 5px;
-left: 5px;
-}
 
-main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-}
+ .logo {
+    right: auto;
+    width: 600px;
+    height: auto;
+    }
 
-.menina{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 55%;
+.menina {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
     height: 100vh;
     object-fit: cover;
-    border-radius: 90px;
 }
 
-h1 {
-    position: absolute;
-    left: 600px;
-    top: 30%;
+ h1{
     font-size: 190px;
-    font-weight: 800;
+    color: #fff;
+     padding-left: 10%;
+    padding-top: 8%;
+     font-weight: 800;
 }
 
 h1 span {
@@ -59,56 +43,108 @@ h1 span {
         #6c63ff,
         #d946ef
     );
-
-    -webkit-background-clip: text;
+     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-
-.crie{
-    position: absolute;
-    left: 600px;
-    top: 70%;
-     width: 4000rem;
-    font-size: 60px;
-     margin-bottom: 15px;
-    color: #B8C0D6;
-}
-
-.estude{
-    position: absolute;
-    left: 600px;
-    top: 65%;
-     width: 3000rem;
-    font-size: 60px;
-    color: #B8C0D6;
+    p {
+    font-size: 65px;
+    color: #fff;
+    padding-left: 10%;
+    padding-top: 2%;
+    height: auto;
 }
 
 .linha {
-    width: 1000px;
-    height: 4px;
+   width: 20%;
+    height: 5px;
     background-color:  #A855F7;
     border-radius: 10px;
-    position: absolute;
-    left: 600px;
-    top: 58%;
+    margin-left: 10%;
 }
 
 button {
-    width: 750px;
-    height: 105px;
-    position: absolute;
-    left: 60rem;
-    top: 140rem;
-    background: #C61CFE; 
-    border-radius: 31px;
-    font-size: 50px;
-    color: #FFF;
-    cursor: pointer;
-}
-    
-a {
-   color: #FFF;
-   text-decoration: none;
+    width: 700px;
+    height: 100px;
+     background: #C61CFE; 
+     cursor: pointer;
+     border-radius: 30px;
+     margin-left: 30%;
+    margin-top: 10rem;
+    transition: 0.5s;
 }
 
+button:hover {
+    background-color: #0ef68a;
+}
+
+button a{
+    color: #fff;
+    font-size: 64px;
+    text-decoration: none;
+     transition: 0.5s;
+}
+button:hover a{
+    color:#000215;
+}
+
+
+@media (max-width: 900px) {
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+   .logo {
+    right: auto;
+    width: 50px;
+    height: auto;
+}
+
+ .menina {
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 45vh;
+        object-fit: cover;
+    }
+ 
+
+    h1{
+    font-size: 1.3rem;
+    color: #fff;
+     padding-left: 5%;
+    padding-top: 5%;
+     height: auto;
+}
+
+    p {
+    font-size: 0.4rem;
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.linha {
+   width: 60%;
+    height: 2px;
+    background-color:  #A855F7;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+ button {
+        width: 5rem;
+        height: 1rem;
+        margin-left: 40%;
+        margin-top: 1rem;
+    }
+
+    button a{
+    font-size: 0.6rem; 
+   
+}
+
+}  
