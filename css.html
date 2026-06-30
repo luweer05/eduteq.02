@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <header>
+            <img class="logo" src="./imagens/logo.dev.png" alt="Logo do site">
+            
+                <a href="inicio.html">Inicio</a> 
+                <a href="inicio.html">Módulos</a>   
+                <a href="conquistas.html">Conquistas</a> 
+                <a href="jogos.html">Jogos</a> 
+                <a href="contato.html">Contato</a> 
+        </header>
+
+        <img src="./imagens/css.png" alt="logo do css">
+        <h1>CSS - O Design de Todo Site</h1>
+
+        <hr>
+
+        <p>O CSS (Cascading Style Sheets) é uma linguagem de estilo que define a aparência de páginas web, como cores, fontes e layout. Ele separa o conteúdo da estrutura visual, facilitando a criação de sites elegantes e consistentes.<br>
+        O CSS permite criar páginas web visualmente atraentes, definindo elementos como cores, tipos de fonte, espaçamento entre elementos e até animações.
+        </p>
+
+        
+        <h2>Estrutura Básica</h2>
+        <h3>Explicação:</h3>
+        <section class="básica">
+            <div class="retangulo-azul"></div>
+                <p>
+                    <span>Seletor</span> → Elemento HTML a ser estilizado.
+                    <span>Bloco de Declarações</span> → Instruções de estilo aplicadas a um elemento HTML.
+                    <span>Propriedades</span> → São os atributos que definem como um elemento HTML será exibido no navegador.
+                    <span>Valores</span> → Uma informação atribuída a uma propriedade.
+                </p>
+        </section>
+
+        <h2>Formas de aplicar CSS</h2>
+        <section class="formas">
+            <div class="retangulo-azul"> </div>
+                <p>
+                    <span>Externo</span> → Arquivo .css vinculado via <link>, ideal para reutilização.
+                     <span>Interno</span> →  <code>&lt;p&gt; style &lt;/p&gt;</code> no <code>&lt;p&gt; head &lt;/p&gt;</code>, útil para páginas únicas.
+                <span>Inline</span> → No atributo style do elemento, indicado apenas para ajustes pontuais.
+                </p>
+        </section>
+
+        <h2>Tipos de seletores comuns</h2>
+        <section class="tipos">
+           <div class="retangulo-azul"> </div>
+            <p>
+                 <span>Elemento</span> → p (todos os <code>&lt;p&gt;p&lt;/p&gt;</code>).
+                <span>Classe</span> → .destaque (elementos com class="destaque").
+                <span>ID</span> →#principal (elemento com id="principal").
+                <span>Atributo</span> → img[src] (imagens com atributo src).
+                <span>Pseudo-classe</span> →  a:hover (links quando o mouse está sobre eles).
+            </p>
+        </section>
+
+         <h2>Exemplos de CSS em Códigos</h2>
+         <section class="exemplos">
+            <div class="retangulo-azul"> </div>
+                <p>
+                   body {
+                    background-color: #f0f0f0;
+                    font-family: Arial, sans-serif;
+                    }
+                </p>
+                <p>
+                    h1 {
+                    text-align: center;
+                    color: #00539f;
+                    }
+                </p>
+        </section>
+
+        <h2>Video como base</h2>
+        <section class="video">
+            <div class="retangulo-azul"></div>
+           <iframe width="623" height="232" src="https://www.youtube.com/embed/AB35iSr1YyA" title="Aprenda CSS do ZERO até colocar o SITE NO AR | Tutorial PASSO A PASSO com PROJETO PRÁTICO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>title="Vídeo base de html" frameborder="0" allowfullscreen></iframe>
+
+           
+        </section>
+
+        <h2>Base de código</h2>
+        <section class="codigo">
+            <div class="retangulo-azul"></div>
+            <div class="retangulo-azul-claro"></div>
+                <p>
+                   <code>
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-body;
+                        font-family: "Montserrat", sans-serif;
+                        scroll-padding-top: 11.5rem;
+                        scroll-behavior: smooth;
+                    }
+
+                    header {
+                        background-color: oklch(49.6% 0.265 301.924);
+                        position: fixed;
+                        width: 100%;
+                        z-index: 10;
+                    }
+
+                    main {
+                        background-color: oklch(94.6% 0.033 307.174);
+                        min-height: calc(100vh - 10.8rem);
+
+                        p {
+                                max-width: 60rem;
+                                margin-inline: auto;
+                                line-height: 2.5rem;
+                        }
+                    }
+                   </code>
+                </p>
+        </section>
+</body>
+</html>
