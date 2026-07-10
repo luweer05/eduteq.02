@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #030513;
+}
+
+.logo {
+    right: auto;
+    width: 700px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.logo:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 50px rgb(210, 210, 210); 
+}
+
+.topo-quiz {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   color: #fff;
+   margin-top: 300px;
+   font-family: "Poppins", sans-serif; 
+   
+}
+
+.esquerdo {
+    font-weight: 600;
+}
+
+.esquerdo span {
+     background: linear-gradient(
+        90deg,
+        #0099ff,
+        #6c63ff,
+        #d946ef
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.desafio {
+    background: radial-gradient(circle at top, #0d0f26 0%, #060818 100%);
+    border: 1px solid #1c1f3d;
+    border-radius: 24px;
+    padding: 70px;
+    margin:  300px 500px;
+   transition: all 0.2s ease;
+}
+
+.desafio:hover {
+      background-color: #080b21;
+    border-color: #2b3063;
+}
+
+.html {
+    color: #ff5722;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif; 
+}
+
+.pergunta {
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #acacac;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.codigo {
+    background-color: #0c0e1a; 
+    border: 1px solid #1e2235; 
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.codigo code {
+    font-family: "Montserrat", sans-serif;
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.lacuna {
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    background-color: #251b45;
+    border-bottom: 3px solid #7928ca;
+    border-radius: 60px;
+    margin: 0 8px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.botao-opcao {
+    background-color: #020410;
+    border: 1px solid #13162d;
+    border-radius: 20px;
+    color: #8fa0dd;
+    font-size: 65px;
+    padding: 50px 30px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: "Poppins", sans-serif; 
+}
+
+.botao-opcao:hover {
+    background-color: #080b21;
+    border-color: #2b3063;
+    color: #ffffff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.proxi {
+    margin-bottom: 350px;
+    margin-top: 250px;
+    margin-left: 2700px;
+    padding: 20px 400px 20px; 
+    background-color: #0c0e1a; 
+    border: 1px solid #1e2235;
+    border-radius: 80px;
+    cursor: pointer;
+    padding: 30px 100px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    gap: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  
+}
+
+.proxi:hover {
+    background-color: #7256ff;
+}
+
+
+.seta {
+    width: 100px;
+    height: 100px;
+}
+
+.pro {
+    text-decoration: none;
+    cursor: pointer; 
+}

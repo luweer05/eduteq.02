@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,14 @@ body {
     right: auto;
     width: 700px;
     height: auto;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.logo:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 50px rgb(255, 153, 0); 
 }
 
 
@@ -27,6 +37,7 @@ h1{
     margin-top: 150px;
     margin-bottom: 20px;
     font-family: "Montserrat", sans-serif;
+
 }
 
 h1 span  {
@@ -171,4 +182,39 @@ strong span,
     padding: 200px;
     background-color: #0c0e1a; 
     border: 1px solid #1e2235;    
+}
+
+
+.proxi {
+    margin-bottom: 350px;
+    margin-top: 250px;
+    margin-left: 2500px;
+    padding: 20px 400px 20px; 
+    background-color: #0c0e1a; 
+    border: 1px solid #1e2235;
+    border-radius: 80px;
+    cursor: pointer;
+    padding: 30px 100px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    gap: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  
+}
+
+.proxi:hover {
+    background-color: #7256ff;
+}
+
+
+.seta {
+    width: 100px;
+    height: 100px;
+}
+
+.pro {
+    text-decoration: none;
+    cursor: pointer; 
 }

@@ -22,9 +22,8 @@ body {
 
 .logo:hover{
     transform: translateY(-20px);
-    box-shadow: 0 20px 50px rgb(0, 195, 255); 
+    box-shadow: 0 20px 50px rgba(255, 251, 0, 0.3); 
 }
-
 
 h1{
     font-size: 200px;
@@ -43,15 +42,15 @@ h1 span
 {
     background: linear-gradient(
         90deg,
-        #00eaff,
-        hsl(237, 100%, 50%),
-        #7a00f3
+        #ffc400,
+        hsl(62, 100%, 62%),
+        #ffe206
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.css {
+.js {
     color: #b0b5c1;
     font-size: 60px;
     line-height: 1.6;
@@ -158,39 +157,4 @@ h3 {
     padding: 200px;
     background-color: #0c0e1a; 
     border: 1px solid #1e2235;    
-}
-
-
-.proxi {
-    margin-bottom: 350px;
-    margin-top: 250px;
-    margin-left: 2500px;
-    padding: 20px 400px 20px; 
-    background-color: #0c0e1a; 
-    border: 1px solid #1e2235;
-    border-radius: 80px;
-    cursor: pointer;
-    padding: 30px 100px;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    font-size: 50px;
-    gap: 10px;
-    transition: background-color 0.5s ease, color 0.5s ease;
-  
-}
-
-.proxi:hover {
-    background-color: #7256ff;
-}
-
-
-.seta {
-    width: 100px;
-    height: 100px;
-}
-
-.pro {
-    text-decoration: none;
-    cursor: pointer; 
 }

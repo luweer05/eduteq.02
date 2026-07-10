@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+      <link rel="stylesheet" href="css.css">
+    <title>aprenda CSS do zero</title>
 </head>
 <body>
-
-        <header>
+         <header>
+            <a href="inicio.html">
             <img class="logo" src="./imagens/logo.dev.png" alt="Logo do site">
-            
-                <a href="inicio.html">Inicio</a> 
-                <a href="inicio.html">Módulos</a>   
-                <a href="conquistas.html">Conquistas</a> 
-                <a href="jogos.html">Jogos</a> 
-                <a href="contato.html">Contato</a> 
+           </a>
         </header>
 
-        <img src="./imagens/css.png" alt="logo do css">
-        <h1>CSS - O Design de Todo Site</h1>
+    
+        <h1><span>CSS </span>- O Design de Todo Site</h1>
 
-        <hr>
-
-        <p>O CSS (Cascading Style Sheets) é uma linguagem de estilo que define a aparência de páginas web, como cores, fontes e layout. Ele separa o conteúdo da estrutura visual, facilitando a criação de sites elegantes e consistentes.<br>
+        <p class="css"> O CSS (Cascading Style Sheets) é uma linguagem de estilo que define a aparência de páginas web, como cores, fontes e layout. Ele separa o conteúdo da estrutura visual, facilitando a criação de sites elegantes e consistentes.<br>
         O CSS permite criar páginas web visualmente atraentes, definindo elementos como cores, tipos de fonte, espaçamento entre elementos e até animações.
         </p>
 
@@ -30,44 +24,44 @@
         <h2>Estrutura Básica</h2>
         <h3>Explicação:</h3>
         <section class="básica">
-            <div class="retangulo-azul"></div>
-                <p>
-                    <span>Seletor</span> → Elemento HTML a ser estilizado.
-                    <span>Bloco de Declarações</span> → Instruções de estilo aplicadas a um elemento HTML.
-                    <span>Propriedades</span> → São os atributos que definem como um elemento HTML será exibido no navegador.
+           
+                <p class="basico">
+                    <span>Seletor</span> → Elemento HTML a ser estilizado. <br>
+                    <span>Bloco de Declarações</span> → Instruções de estilo aplicadas a um elemento HTML.<br>
+                    <span>Propriedades</span> → São os atributos que definem como um elemento HTML será exibido no navegador.<br>
                     <span>Valores</span> → Uma informação atribuída a uma propriedade.
                 </p>
         </section>
 
         <h2>Formas de aplicar CSS</h2>
         <section class="formas">
-            <div class="retangulo-azul"> </div>
-                <p>
-                    <span>Externo</span> → Arquivo .css vinculado via <link>, ideal para reutilização.
-                     <span>Interno</span> →  <code>&lt;p&gt; style &lt;/p&gt;</code> no <code>&lt;p&gt; head &lt;/p&gt;</code>, útil para páginas únicas.
+          
+                <p class="forma">
+                    <span>Externo</span> → Arquivo .css vinculado via <link>, ideal para reutilização. <br>
+                     <span>Interno</span> →  <code>&lt;p&gt; style &lt;/p&gt;</code> no <code>&lt;p&gt; head &lt;/p&gt;</code>, útil para páginas únicas.<br>
                 <span>Inline</span> → No atributo style do elemento, indicado apenas para ajustes pontuais.
                 </p>
         </section>
 
         <h2>Tipos de seletores comuns</h2>
         <section class="tipos">
-           <div class="retangulo-azul"> </div>
-            <p>
-                 <span>Elemento</span> → p (todos os <code>&lt;p&gt;p&lt;/p&gt;</code>).
-                <span>Classe</span> → .destaque (elementos com class="destaque").
-                <span>ID</span> →#principal (elemento com id="principal").
-                <span>Atributo</span> → img[src] (imagens com atributo src).
+          
+            <p class="tipo">
+                 <span>Elemento</span> → p (todos os <code>&lt;p&gt;p&lt;/p&gt;</code>).<br>
+                <span>Classe</span> → .destaque (elementos com class="destaque").<br>
+                <span>ID</span> →#principal (elemento com id="principal").<br>
+                <span>Atributo</span> → img[src] (imagens com atributo src).<br>
                 <span>Pseudo-classe</span> →  a:hover (links quando o mouse está sobre eles).
             </p>
         </section>
 
          <h2>Exemplos de CSS em Códigos</h2>
          <section class="exemplos">
-            <div class="retangulo-azul"> </div>
-                <p>
-                   body {
-                    background-color: #f0f0f0;
-                    font-family: Arial, sans-serif;
+           
+                <p class="ex">
+                 <span>  body </span>   { <br>
+                  <code class="roxo"> <span>background-color:</span> #f0f0f0; <br>
+                   <span> font-family:</span> Arial, sans-serif;</code><br>
                     }
                 </p>
                 <p>
@@ -88,38 +82,46 @@
 
         <h2>Base de código</h2>
         <section class="codigo">
-            <div class="retangulo-azul"></div>
-            <div class="retangulo-azul-claro"></div>
-                <p>
-                   <code>
-                    * {
-                        margin: 0;
-                        padding: 0;
-                        box-sizing: border-body;
-                        font-family: "Montserrat", sans-serif;
-                        scroll-padding-top: 11.5rem;
-                        scroll-behavior: smooth;
-                    }
+            
+         
+                <p class="codi">
+                   <code class="roxo">
+                   <code class="fim"><span> * </span> {</code> <br>
+                      <span> margin:</span> 0;<br>
+                       <span>  padding:</span>  0;<br>
+                         <span> box-sizing:</span>  border-body;<br>
+                        <span> font-family:</span>  "Montserrat", sans-serif;<br>
+                         <span> scroll-padding-top:</span>  11.5rem;<br>
+                       <span> scroll-behavior:</span>  smooth;<br>
+                    }<br><br>
 
-                    header {
-                        background-color: oklch(49.6% 0.265 301.924);
-                        position: fixed;
-                        width: 100%;
-                        z-index: 10;
-                    }
+                    <code class="fim"><span>header </span> {<br> </code>
+                   <span>      background-color:</span> oklch(49.6% 0.265 301.924);<br>
+                       <span> position: </span>fixed;<br>
+                        <span> width: </span>100%;<br>
+                        <span> z-index: </span>10;<br>
+                    }<br><br>
 
-                    main {
-                        background-color: oklch(94.6% 0.033 307.174);
-                        min-height: calc(100vh - 10.8rem);
+                  <code class="fim"><span>   main</span>{<br> </code>
+                     <span>   background-color: </span>oklch(94.6% 0.033 307.174);<br>
+                     <span>  min-height:</span> calc(100vh - 10.8rem);<br><br>
 
-                        p {
-                                max-width: 60rem;
-                                margin-inline: auto;
-                                line-height: 2.5rem;
-                        }
+                       <code class="fim"><span>   p </span>{<br> </code>
+                        <span>         max-width:</span> 60rem;<br>
+                       <span>         margin-inline:</span> auto;<br>
+                         <span>       line-height:</span> 2.5rem;<br>
+                        }<br>
                     }
                    </code>
                 </p>
         </section>
+
+           <a href="js.html" class="pro">
+        <button class="proxi">
+            Avançar pro JavaScript
+            <img class="seta" src="./imagens/seta-direita.png" alt="seta">
+        </button>
+    </a>
+
 </body>
 </html>
