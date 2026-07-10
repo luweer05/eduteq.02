@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,29 +13,18 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-
-
  .logo {
-    right: auto;
     width: 600px;
     height: auto;
-    }
-
-.menina {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100vh;
-    object-fit: cover;
 }
 
- h1{
-    font-size: 190px;
-    color: #fff;
-     padding-left: 10%;
-    padding-top: 8%;
-     font-weight: 800;
+h1 {
+    font-size: 300px;
+    color: #ffffff;
+    margin-left: 300px;
+    margin-top: 250px;
+    margin-bottom: 75px;
+    padding: 0;   
 }
 
 h1 span {
@@ -47,97 +38,136 @@ h1 span {
     -webkit-text-fill-color: transparent;
 }
 
-    p {
-    font-size: 65px;
-    color: #fff;
-    padding-left: 10%;
-    padding-top: 2%;
-    height: auto;
+.comeco {
+  font-size: 65px;
+  color: #ffffff;
+  margin-left: 300px;
+  margin-bottom: 200px;
+  padding: 0;  
+  line-height: 1.8;
+   font-family: "Poppins", sans-serif;    
 }
 
-.linha {
-   width: 20%;
-    height: 5px;
-    background-color:  #A855F7;
-    border-radius: 10px;
-    margin-left: 10%;
+
+.conhecer {
+    background-color: #7800c2;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    padding: 30px 100px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    gap: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-left: 750px;  
+    margin-top: 50px;
 }
 
-button {
-    width: 700px;
+.conhecer:hover {
+    background-color: #7256ff;
+}
+
+.seta {
+    width: 100px;
     height: 100px;
-     background: #C61CFE; 
-     cursor: pointer;
-     border-radius: 30px;
-     margin-left: 30%;
-    margin-top: 10rem;
-    transition: 0.5s;
 }
 
-button:hover {
-    background-color: #0ef68a;
+.menina {
+    position: fixed; 
+    right: 0;    
+    top: 0;           
+    width: 50vw;       
+    height: 100vh;     
+    object-fit: cover;   
 }
 
-button a{
-    color: #fff;
-    font-size: 64px;
+.modulo {
     text-decoration: none;
-     transition: 0.5s;
-}
-button:hover a{
-    color:#000215;
+    cursor: pointer; 
 }
 
 
-@media  (max-width: 1024px) {
-    
-    main {
-        display: flex;
-        flex-direction: column;
-    }
 
-     
+
+
+
+
+
+
+@media (max-width: 440px) {
+
+   
  .logo {
-    right: 100px;
-    width: 200px;
-    height: 100%;
-    }
+    width: 300px;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 40px;
+}
 
+h1 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;  
+}
+
+h1 span {
+    background: linear-gradient(
+        90deg,
+        #0099ff,
+        #6c63ff,
+        #d946ef
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.comeco {
+  font-size: 15px;
+  margin-left: 40px;  
+  line-height: 1.8;  
+  margin-bottom: 30px;
+}
+
+.conhecer {
    
-
-    h1{
-    font-size: 1.3rem;
-    color: #fff;
-     padding-left: 5%;
-    padding-top: 5%;
-     height: auto;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 12px;
+    gap: 5px;
+    margin-left: 150px;  
+    margin-top: 0;
 }
 
-    p {
-    font-size: 0.4rem;
-    color: #fff;
-    padding-left: 5%;
-    padding-top: 2%;
+.conhecer:hover {
+    background-color: #7256ff;
 }
 
-.linha {
-   width: 20;
-    height: 2px;
-    background-color:  #A855F7;
-    border-radius: 10px;
-    margin-left: 5%;
+.seta {
+    width: 30px;
+    height: 30px;
 }
 
- button {
-        width: 5rem;
-        height: 1rem;
-        margin-left: 40%;
-        margin-top: 1rem;
-    }
-
-    button a{
-    font-size: 0.6rem; 
-   
+.menina {
+    position: fixed; 
+    right: 0;    
+    top: 0;           
+    width: 0vw;       
+    height: 0vh;     
+    object-fit: cover;   
 }
 
-}  
+.modulo {
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+}
+
+
+
