@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -63,6 +64,7 @@ h1 span {
     transition: background-color 0.5s ease, color 0.5s ease;
     margin-left: 750px;  
     margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 .conhecer:hover {
@@ -89,59 +91,96 @@ h1 span {
 }
 
 
+.aula1 {
+    display: flex;         
+    flex-direction: row;     
+    justify-content: left; 
+    align-items: stretch;    
+    gap: 30px;                
+    margin-top: 50px;         
+    width: 100%; 
+       
+}          
 
 
+.estru, .de, .si {
+    background-color: #0c0e1a; 
+    border: 1px solid #1e2235; 
+    border-radius: 24px;       
+    width: 800px;          
+    padding: 35px;             
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;   
+    margin-left: 100px;
+    margin-bottom: 400px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
 
 
+.estru:hover, .de:hover, .si:hover{
+    transform: translateY(-20px);
+    border-color: #a703ff; 
+    box-shadow: 0 20px 50px rgba(5, 0, 143, 0.3); 
+}
+
+.numero {
+    font-size: 70px;
+    font-weight: bold;
+    color: #a855f7;       
+    margin-bottom: 15px;    
+    font-family: "Poppins", sans-serif;
+}
 
 
+.aula1 h3 {
+    color: #ffffff;     
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 12px; 
+    margin-top: 20px ;     
+}
 
-@media (max-width: 440px) {
 
-   
+.aula2, .aula3, .aula4 {
+    color: #b0b5c1;      
+    font-size: 50px;
+    line-height: 1.6;       
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1040px) {
+
  .logo {
-    width: 300px;
+    width: 150px;
     height: auto;
-    margin-left: 90px;
-    margin-top: 40px;
 }
 
 h1 {
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 10px;  
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
-h1 span {
-    background: linear-gradient(
-        90deg,
-        #0099ff,
-        #6c63ff,
-        #d946ef
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 .comeco {
-  font-size: 15px;
-  margin-left: 40px;  
-  line-height: 1.8;  
-  margin-bottom: 30px;
+  font-size: 20px;
+ 
+  margin-left: 50px;
+  margin-bottom: 0; 
 }
 
 .conhecer {
-   
-    padding: 5px 15px;
+      padding: 5px 20px;
     color: #ffffff;
-    font-size: 12px;
-    gap: 5px;
-    margin-left: 150px;  
-    margin-top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-left: 50px;  
+    margin-top: 50px;
 }
 
 .conhecer:hover {
@@ -154,20 +193,9 @@ h1 span {
 }
 
 .menina {
-    position: fixed; 
-    right: 0;    
-    top: 0;           
-    width: 0vw;       
-    height: 0vh;     
-    object-fit: cover;   
-}
-
-.modulo {
-    text-decoration: none;
-    cursor: pointer; 
+        display: none; 
 }
 
 }
-
 
 
