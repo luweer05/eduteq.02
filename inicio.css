@@ -51,11 +51,6 @@ h1 span {
     font-family: "Poppins", sans-serif;
 }
 
-.html {
-    border: #890101;
-
-}
-
 
 
 .grade {
@@ -63,9 +58,9 @@ h1 span {
     justify-content: center;
     gap: 70px;              
     margin-top: 150px; 
-
+   margin-left: 40px;
+   margin-right: 40px;
 }
-
 
 .html-html, .html-css, .html-js {
     background-color: #0c0e1a; 
