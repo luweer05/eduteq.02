@@ -1,3 +1,7 @@
+<!-- Tirar os <p> dos <code>
+      Arrumar alguns erros -->
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,70 +19,73 @@
         </header>
 
        
-        <h1><span>JavaScript(JS)></span> - O Comando de Todo Site</h1>
-
+        <h1><span>JavaScript (JS)</span> - O Comando de Todo Site</h1>
         <p class="js">
             JavaScript (JS) é uma linguagem de programação usada para adicionar interatividade às páginas web. Enquanto o HTML cria a estrutura e o CSS define a aparência, o JavaScript faz o site "ganhar vida".
         </p>
         
         <h2>Como adicionar JavaScript ao HTML</h2>
         <section class="adicionar">
-
         <h3>Dentro do HTML:</h3>
         <h3>Arquivo Externo:</h3>
-            <p class="adicionar">
+            <p class="adicionar"> 
+                <pre>
                 <code><span>&lt;script&gt</span></code>
-                <code>alert("Olá Mundo!");</code>
+                <code><span>alert("</span>Olá Mundo! <span>");</span></code>
                 <code><span>&lt;/script&gt</span></code>
 
-                <code><span>&lt;script src="script.js"&gt</span></code> <code><span>&lt;/script&gt</span></code>
-            </p>
+                <code><span>&lt;script src="</span> script.js <span>"&gt; &lt;/script&gt;</span></code>            
+            </pre>
+          </p>
         </section>
+
 
         <h2>Variáveis</h2>
         <section class="variaveis">
-        
             <p>
-                <span>let nome = </span> "Maria";
-                <span>let idade =</span> 17;
-                <span>let altura =</span> 1.65;
+                <span>let nome = </span>"Maria";
+                <span>let idade = </span>17;
+                <span>let altura = </span>1.65;
 
-                <span>let </span> → cria uma variável.
-                <span>nome</span> →  identificador da variável.
-                <span>"Maria"</span> →  valor armazenado. 
+                <span>let → </span>cria uma variável.
+                <span>nome → </span>identificador da variável.
+                <span>"Maria" → </span>valor armazenado. 
             </p>
         </section>
 
+
         <h2>Tipos de Dados</h2>
         <section class="tipos">
-       
         <h3>String(Texto)</h3>
         <h3>Number(Número)</h3>
             <p>
-                 <span>let nome =</span> "Maria";
-                 <span>let nota =</span> 8.5;
+                 <span>let nome = </span>"Maria";
+                 <span>let nota = </span>8.5;
             </p>
 
             <h3>Boolean (Verdadeiro ou Falso)</h3>
             <p>
-                <span>let aprovado =</span> true;
+                <span>let aprovado = </span>true;
             </p>
 
             <h3>Array (Lista)</h3>
             <p>
-                <span>let frutas =</span>["Maçã", "Banana", "Uva"];
+                <span>let frutas = </span>["Maçã", "Banana", "Uva"];
             </p>
 
             <h3>Objetc (objeto)</h3>
             <p>
-                <span>let pessoa ={</span> <strong>nome: </strong>"Lucas", <strong>idade: </strong> 18 <span>};</span>
+                <span>let pessoa = {</span> <br> 
+                    <strong>nome: </strong>"Lucas", <br>
+                    <strong>idade: </strong>18 <br>
+                <span>};</span>
             </p>
         </section>
 
+
         <h2>Entrada de Dados</h2>
        <section class="entrada">
-        
-        <h3>prompt()</h3>
+        <h3><span>prompt()</span></h3>
             <p>
                 <span>let nome = prompt ("</span>Digite seu nome: <span>");</span>
             </p>
@@ -86,26 +93,28 @@
 
 
         <h2>Saída de Dados</h2>
-       <sectio class="saida">
+       <section class="saida">
          
-        <h3>alert()</h3>
+        <h3><span>alert()</span></h3>
         <p>
             <span>alert("</span>Bem-vindo <span>!");</span>
         </p>
-        <h3>console.log()</h3>
+
+        <h3><span>console.log()</span></h3>
         <p>
             <span>console.log("</span> Teste <span>");</span>
         </p>
-       </sectio>
+       </section>
+
 
        <h2>Operadores Matemáticos</h2>
        <section class="mate">
         <p>
-            <span>let soma = </span> 5 + 3
-            <span>let subtração = </span> 5 - 3
-            <span>let multiplicação = </span> 5 * 3
-            <span>let divisão = </span> 5 / 3
-            <span>let resto = </span> 5 % 3
+            <span>let soma = </span> 5 + 3;
+            <span>let subtração = </span> 5 - 3;
+            <span>let multiplicação = </span> 5 * 3;
+            <span>let divisão = </span> 5 / 3;
+            <span>let resto = </span> 5 % 3;
         </p>
        </section>
 
@@ -113,92 +122,107 @@
        <section class="condicionais">
        <section class="if">
         <h3>if</h3>
-        <p>
-            <span>let idade = 18;</span>
-            <span>if (idade>=18){
-                console.log("</span> <strong>Maior de idade</strong> <span>");
-                }
-                </span>
-        </p>
+        <code>
+            <pre>
+                 <span>let idade = 18;</span>
+                 <span>if (idade>=18){
+                console.log("</span><strong>Maior de idade</strong><span>");
+                }</span>
+            </pre>
+        </code>
         <p>Se a condição for verdadeira, executa o código.</p>
-
        </section>
 
        <section class="if e else">
-        <p>
-            <span> if(idade>=18){</span>
-                <span>console.log("</span> <strong>Maior</strong> <span>"); } else{ console.log("</span> <strong>Menor</strong> <span>");</span>
-        </p>
+        <code>
+            <pre>
+                <span>if (idade >= 18) {</span>
+                    <span>console.log("</span><strong>Maior</strong> <span>");
+                <span>} else{</span>  
+                    console.log("</span><strong>Menor</strong><span>");</span>
+                 <span>}</span>
+           </pre>
+        </code>
        </section>
 
        <section class="if, else if e else">
-        <p>
-           <code> 
+        <code> 
+         <pre>
             <span>let nota=7;</span>
+
             <span>if(nota>=9){
-                console.log("Excelente");
+                console.log("</span> Excelente <span>");
             }else if(nota>=6){
-                console.log("Aprovado");
+                console.log("</span>Aprovado <span>");
             } else {
-                console.log("Reprovado");
-            }
-            </span>
-           </code>
-        </p>
+                console.log("</span> Reprovado <span>");
+            }</span>
+          </pre>
+        </code>
+       
+       </section>
        </section>
 
        <h2>Operadores Relacionais</h2>
        <section class="operadores">
         <p>
+         <code>
+            <span>
             == <br>
             === <br>
             != <br>
-           &gt; <br>
-           &lt; <br>
-           &gt;= <br>
-           &lt;= <br>
+            &gt; <br>
+            &lt; <br>
+            &gt;= <br>
+            &lt;= 
+         </span>
+         </code>
         </p>
        </section>
 
        <h3>Exemplo</h3>
        <section class="ex">
         <p>
-             <code>if(idade &gt;= 18)</code>
+            <span> <code> if(idade &gt;= 18) </code> </span>
         </p>
        </section>
 
        <h3>AND (&&)</h3>
        <section class="and">
-         <p>
+         <span>
             <code>if(idade &gt;= 18)</code>
-         </p>
+         </span>
          <p>As duas condições devem ser verdadeiras</p>
        </section>
 
        <h3>OR (||)</h3>
        <section class="or">
-        <p>
+        <span>
             <code>if (idade &lt; 18 || idade &gt; 60)</code>
-        </p>
+        </span>
         <p>Uma das condições deve ser verdadeira.</p>
        </section>
 
        <h3>NOT (!)</h3>
        <section class="not">
-        <p>
+        <span>
             <code>if(!aprovado)</code>
-        </p>
+        </span>
         <p>Inverte o valor.</p>
        </section>
+
 
        <h2>Laços de Repetição</h2>
        <h3>for</h3>
        <section class="for">
          <p>
-            <code>for(let i=1; i&lt;=5;i++){<br>
-                console.log(i); <br>
-            }  <br>
-            </code>
+            <span>
+                <code><pre>
+                for(let i=1; i&lt;=5;i++){<br>
+                  console.log(i); <br>
+                }  
+                </pre></code>
+            </span>
 
             <span> i=1 →</span> começa em 1. <br>
             <span>i &lt;= 5 →</span> repete até 5. <br>
@@ -208,7 +232,7 @@
 
        <h3>while</h3>
        <section class="while">
-         <p>
+       <span>
             <pre><code>
                 let i = 1; 
                 
@@ -217,28 +241,34 @@
                     i++;
                 }
             </code></pre>
-         </p>
-         <p>Repete enquanto a condição for verdadeira</p>
+       </span>
+         <p>Repete enquanto a condição for verdadeira.</p>
        </section>
-
 
        <h3>do while</h3>
        <section class="doWhile">
-       <p><pre><code>
+       <pre>
+            <code>
+                <span>
            let i = 1; 
 
            do{
             console.log(i);
             i++;
            } while(i &lt;= 5);
-        </code></pre></p>
+                </span>
+            </code>
+        </pre>
         <p>Execute pelo menos uma vez.</p>
        </section>
+
 
        <h2>Funções</h2>
        <h3>São blocos de códigos reutilizáveis.</h3>
        <section class="blocos">
-        <p><pre><code>
+        <pre>
+            <code>
+                <span>
             function saudacao(){
                 console.log("Olá!");
             }
@@ -249,43 +279,60 @@
                 return a + b;
             }
             console.log(soma(5,3));
-        </code></pre></p>
+                </span>
+            </code>
+        </pre>
+
         <p>
-            <span>a e b →</span> parâmetros. <br>
-            <span>return →</span> devolve um valor.
-            <span>Arrays</span>
-            <span>let cores = </span>["Azul", "Vermelho", "Verde"];
+            <code>
+                <span>a e b →</span> parâmetros. <br>
+                <span>return →</span> devolve um valor.
+                <span>Arrays</span>
+                <span>let cores = </span>["Azul", "Vermelho", "Verde"];
+            </code>
         </p>
        </section>
 
        <h3>Acessar elemento:</h3>
        <section class="elemento">
-        <p><code>
-            console.log(cores[01]);
-        </code></p>
+        <code>
+            <span>
+                console.log(cores[0]);
+            </span>
+        </code>
        </section>
 
        <h3>Resultado:</h3>
        <section class="resultado">
-        <p>
+        <p><span>
             Azul <br>
-            Métodos de Arrays <br>
-        </p>
+            Métodos de Arrays 
+        </span></p>
        </section>
 
        <h3>Adicionar:</h3>
        <section class="adicionar">
-        <p><code>cores.push("Amarelo");</code></p>
+        <code>
+            <span>
+            cores.push("Amarelo");
+            </span>
+        </code>
        </section>
 
        <h3>Remover último:</h3>
        <section class="remover">
-        <p><code>cores.pop();</code></p>
+        <code>
+            <span>
+            cores.pop();
+            </span>
+        </code>
        </section>
 
        <h3>Quantidade:</h3>
        <section class="quantidade">
-        <p><pre><code>
+        <pre>
+            <code>
+                <span>
             console.log(cores.length);
             Objetos
             let aluno = {
@@ -293,43 +340,58 @@
                 idade:16,
                 turma:"3A"
             };
-        </code></pre></p>
+                </span>
+            </code>
+        </pre>
        </section>
 
        <h3>Acessar:</h3>
        <section class="acessar">
-        <p><pre><code>
+        <pre>
+            <code>
+                <span>
             console.log(aluno.nome);
             DOM(Document Objetc Model)
-        </code></pre></p>
+                </span>
+            </code>
+        </pre>
         <p>O DOM permite manipular elementos HTML. </p>
        </section>
 
        <h2>Temporizadores</h2>
        <h3>setTimeout</h3>
        <section class="set">
-        <p><pre><code>
+        <pre>
+            <code>
+                <span>
             setTimeout(()→{
-                alert("Passaeam 3 segundos");
+               alert("Passaeam 3 segundos");
             },3000);
             setInterval
-        </code></pre></p>
+                </span>
+            </code>
+        </pre>
         <p>Executa uma vez.</p>
        </section>
 
        <h3>Executa Repetidamente.</h3>
        <section class="repe">
-        <p><pre><code>
+        <pre>
+            <code>
+                <span>
             setInterval(() => {
             console.log("Executando...");
             }, 1000);
             Template String
             let nome = "Pedro";
             console.log(`Olá ${nome}`);
-        </code></pre></p>
+                </span>
+            </code>
+        </pre>
+
         <p><span>Resultado:</span> </p>
         <p>Olá Pedro <br>
-        Arrow function <br></p>
+        Arrow function </p>
 
         <p>Executa uma vez.</p>
        </section>
@@ -344,32 +406,33 @@
         <section class="codigo">
            
                 <p class="codi">
-                    let conta = 0
-                    let pessoas = 0
-                    let porcentagem = 0
+                    <code>
+                        <pre>
+                            
+                            let conta = 0
+                            let pessoas = 0
+                            let porcentagem = 0
 
-                    const contaInput = document.querySelector("#conta")
-                    contaInput.addEventListener("input", receberValorConta)
+                            const contaInput = document.querySelector("#conta")
+                            contaInput.addEventListener("input", receberValorConta)
 
-                    function receberValorConta(evento) {
-                        conta = Number(evento.target.value)
-                        calcular()
-                    }
+                            function receberValorConta(evento) {
+                                conta = Number(evento.target.value)
+                                calcular()
+                            }
 
-                    const pessoasInput = document.querySelector("#pessoas")
-                    pessoasInput.addEventListener("input", receberQuantidadePessoas)
+                            const pessoasInput = document.querySelector("#pessoas")
+                            pessoasInput.addEventListener("input", receberQuantidadePessoas)
 
-                    function receberQuantidadePessoas(evento) {
-                        const paragrafoErro = document.querySelector(".pessoas #erro")
-                        const divErro = document.querySelector(".pessoas .input-box")
-                    }
+                            function receberQuantidadePessoas(evento) {
+                                const paragrafoErro = document.querySelector(".pessoas #erro")
+                                const divErro = document.querySelector(".pessoas .input-box")
+                            }
 
+                        </pre>
+                    </code>
                 </p>
         </section>
 
-
-
-
-    </section>
 </body>
 </html>
