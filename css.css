@@ -70,9 +70,10 @@ h2{
     line-height: 1.8;
     margin-top: 100px;
     margin-bottom: 40px;
-    padding-left: 50px;
+    padding-inline: 50px;
     font-family: "Poppins", sans-serif; 
     border-radius: 50px; 
+    width: fit-content;
 }
 
 h3 {
