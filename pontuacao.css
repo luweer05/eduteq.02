@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        .conteudo-do-site {
+            background-color: #f0f0f0;
+            padding: 50px;
+            text-align: center;
+            border: 2px dashed #ccc;
+        }
+
+       
+        .fundo-escuro-overlay {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100vw; 
+            height: 100vh; 
+            background-color: rgba(0, 0, 0, 0.8); 
+            z-index: 9999; 
+            
+         
+            display: none; 
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+        .card {
+            width: 550px;
+            padding: 80px 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            display: none; 
+        }
+
+       
+        .card.acerto {
+            background-color: #e5faca; 
+            border: 2px solid #5a94f8;
+        }
+        .card.acerto h1 { color: #437a34; }
+
+       
+        .card.erro { background-color: #f7d4d6; }
+        .card.erro h1 { color: #a34141; }
+
+        
+        h1 {
+            font-size: 46px;
+            font-weight: 800;
+            margin: 0 0 10px 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p {
+            font-size: 26px;
+            font-weight: 700;
+            color: #000000;
+            margin: 0 0 40px 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+       
+        .btn-avancar {
+            background-color: #7259f7;
+            color: white;
+            border: none;
+            padding: 12px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+        }
