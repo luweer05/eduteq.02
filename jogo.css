@@ -72,6 +72,18 @@ body {
     font-family: "Poppins", sans-serif; 
 }
 
+.css {
+    color: #0ffce8;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif; 
+}
+
+.js {
+    color: #efff12;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif; 
+}
+
 .pergunta {
     font-size: 100px;
     font-weight: 600;
@@ -144,7 +156,6 @@ body {
 .proxi {
     margin-bottom: 350px;
     margin-top: 250px;
-    margin-left: 2700px;
     padding: 20px 400px 20px; 
     background-color: #0c0e1a; 
     border: 1px solid #1e2235;
@@ -157,7 +168,8 @@ body {
     font-size: 50px;
     gap: 10px;
     transition: background-color 0.5s ease, color 0.5s ease;
-  
+    display: block;
+    margin: 0 auto;
 }
 
 .proxi:hover {

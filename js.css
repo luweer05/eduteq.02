@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     background-color: #030513;
@@ -84,8 +83,10 @@ h3 {
     font-family: "Montserrat", sans-serif;
 }
 
-.codi{
-     color: #c0c0c0;
+
+p, .codigo
+p .adicionar{
+    color: #c0c0c0;
     font-size: 60px;
     line-height: 1.6;
     margin-bottom: 45px;
@@ -94,17 +95,11 @@ h3 {
     background-color: #0c0e1a; 
     border: 1px solid #1e2235;
     margin: 0 200px; 
-    font-family: "Poppins", sans-serif; 
-
+    font-family: "Poppins", sans-serif;   
 }
 
-p{
-    color: #c0c0c0;
-    font-size: 60px;
-    margin-bottom: 45px;
-    margin-top: 40px; 
-    font-family: "Poppins", sans-serif;    
-}
+
+
 .basico, .forma, .tipo, .ex, .codi {
      color: #c0c0c0;
     font-size: 60px;

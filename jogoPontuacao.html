@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay de Acerto e Erro</title>
+    <link rel="stylesheet" href="pontuacao.css">
+    <script src="pontuacao.js" defer></script>
+
+   
+</head>
+<body>
+
+  
+    <div class="conteudo-do-site">
+        <h2>Meu Jogo / Meu Site</h2>
+        <p>Este é o conteúdo normal da sua página.</p>
+        <button onclick="mostrarTela('acerto')">Simular Acerto</button>
+        <button onclick="mostrarTela('erro')">Simular Erro</button>
+    </div>
+
+
+    <div id="meuOverlay" class="fundo-escuro-overlay">
+        
+     
+        <div id="telaAcerto" class="card acerto">
+            <h1>VOCÊ ACERTOU!</h1>
+            <p>Avance para o próximo level</p>
+            <button class="btn-avancar" onclick="fecharTela()">Avançar &rarr;</button>
+        </div>
+
+        
+        <div id="telaErro" class="card erro">
+            <h1>VOCÊ ERROU!</h1>
+            <p>Não se preocupe, você consegue!</p>
+            <button class="btn-avancar" onclick="fecharTela()">Avançar &rarr;</button>
+        </div>
+
+    </div>
+</body>
+</html>

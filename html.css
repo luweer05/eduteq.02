@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,24 +11,23 @@ body {
     font-family: "Inter", sans-serif;
 }
 
- .logo {
+.logo {
     width: 10%;
     margin: 25px;
     cursor: pointer;
     border-radius: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.logo:hover{
+.logo:hover {
     transform: translateY(-20px);
-    box-shadow: 0 20px 50px rgb(255, 153, 0); 
+    box-shadow: 0 20px 50px rgb(255, 153, 0);
 }
 
-
-h1{
+h1 {
     font-size: 4.5rem;
     color: #fff;
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.8;
@@ -36,11 +35,9 @@ h1{
     margin-top: 70px;
     margin-bottom: 20px;
     font-family: "Montserrat", sans-serif;
-
 }
 
-h1 span  {
-    
+h1 span {
     background: linear-gradient(
         90deg,
         #ff9900,
@@ -56,27 +53,26 @@ h1 span  {
     font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 45px;
-    text-align: center;    
-    padding: 0 40px;        
+    text-align: center;
+    padding: 0 40px;
 }
 
-h2{
-    background-color: #0c0e1a; 
-    border: 1px solid #1e2235; 
+h2 {
+    background-color: #0c0e1a;
+    border: 1px solid #1e2235;
     font-size: 2.5rem;
     color: #bbbbbb;
-    margin: 0 200px; 
+    margin: 100px 150px 0;
     line-height: 1.8;
-    margin-top: 100px;
     padding-left: 50px;
-    font-family: "Poppins", sans-serif; 
-    border-radius: 50px; 
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
 }
 
 h3 {
-     font-size: 1.5rem;
+    font-size: 1.5rem;
     color: #bbbbbb;
-    margin-left: 200px;
+    margin-left: 150px;
     line-height: 1.8;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -85,68 +81,37 @@ h3 {
 }
 
 .titulo, .basico, .para, .img, .li, .lis, .bot, .lin,
-.di, .sec{
-     color: #c0c0c0;
-    font-size: 1.5rem;
-    line-height: 1.6;
-    margin-bottom: 45px;
-    margin-top: 40px;
-    padding: 20px 400px 20px; 
-    background-color: #0c0e1a; 
-    border: 1px solid #1e2235;
-    margin: 0 200px; 
-    font-family: "Poppins", sans-serif;   
-     border-radius: 50px; 
-}
-
-.codi{
+.di, .sec, .destaque {
     color: #c0c0c0;
     font-size: 1.5rem;
     line-height: 1.6;
-    margin-bottom: 45px;
-    margin-top: 40px;
-    padding: 20px 400px 20px; 
-    background-color: #0c0e1a; 
+    margin: 40px 150px 45px;
+    padding: 20px 60px;
+    background-color: #0c0e1a;
     border: 1px solid #1e2235;
-    margin: 0 200px; 
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
+}
+
+.codi {
+    color: #c0c0c0;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 40px 150px 45px;
+    background-color: #0c0e1a;
+    border: 1px solid #1e2235;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
-    font-family: "Poppins", sans-serif; 
-     border-radius: 50px;   
+    padding: 120px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
 }
 
-strong  {
-    color:  #a9a9a9;
-    font-size: 1.5rem;
-    line-height: 1.6;
-    margin-bottom: 45px;
-    margin-top: 40px;
-    padding: 20px 400px 20px; 
-    background-color: #0c0e1a; 
-    border: 1px solid #1e2235;
-    margin: 0 200px;    
-     border-radius: 50px; 
-}
-
-.li{
-     color:  #a9a9a9;
-    font-size: 1.5rem;
-    line-height: 1.6;
-    margin-bottom: 45px;
-    margin-top: 40px;
-    padding: 20px 400px 20px; 
-    background-color: #0c0e1a; 
-    border: 1px solid #1e2235;
-    margin: 0 200px;    
-}
-
-.basico span, 
-strong span,
+.basico span,
+.destaque span,
 .verde span,
-.amarelo span{
-    
+.amarelo span {
     background: linear-gradient(
         90deg,
         #84ff00,
@@ -158,9 +123,8 @@ strong span,
 }
 
 .titulo span, .para span, .img span, .li span, .lis span, .bot span,
-.lin span, .di span, .sec span, .vi span, .laranja span{
-   
-       background: linear-gradient(
+.lin span, .di span, .sec span, .vi span, .laranja span {
+    background: linear-gradient(
         90deg,
         #ff9900,
         hsl(38, 100%, 67%),
@@ -169,8 +133,6 @@ strong span,
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
 
 .video {
     width: 100%;
@@ -193,12 +155,13 @@ strong span,
 }
 
 .proxi {
-   margin-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     display: flex;
     justify-self: center;
     align-items: center;
-    padding: 20px 20px 20px; 
-    background-color: #0c0e1a; 
+    padding: 20px;
+    background-color: #0c0e1a;
     border: 1px solid #1e2235;
     border-radius: 80px;
     cursor: pointer;
@@ -206,14 +169,11 @@ strong span,
     font-size: 1.5rem;
     gap: 10px;
     transition: background-color 0.5s ease, color 0.5s ease;
-  margin-bottom: 50px;
 }
 
 .proxi:hover {
     background-color: #7256ff;
 }
-
-
 
 .seta {
     width: 50px;
@@ -222,57 +182,237 @@ strong span,
 
 .pro {
     text-decoration: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 
 
 
+@media (max-width: 1440px) {
 
+    h1 {
+        font-size: 2.5rem;
+    }
 
+    .html {
+        font-size: 1.25rem;
+    }
 
+    h2 {
+        font-size: 1.25rem;
+        margin: 0 100px;
+        margin-top: 80px;
+    }
 
-@media (max-width: 1440px){
-   
+    h3 {
+        font-size: 1.25rem;
+        margin-left: 100px;
+    }
 
-h1{
-    font-size: 2.5rem;
+    .titulo, .basico, .para, .img, .li, .lis, .bot, .lin,
+    .di, .sec {
+        font-size: 1.25rem;
+        padding: 20px 100px;
+        margin: 0 100px;
+    }
+
+    .codi {
+        font-size: 1.5rem;
+        padding: 100px;
+        margin: 0 100px;
+    }
+
+    strong {
+        font-size: 1.25rem;
+        padding: 20px 100px;
+        margin: 0 100px;
+    }
+
+    .li, .lit {
+        font-size: 1.25rem;
+        padding: 20px 100px;
+        margin: 0 100px;
+    }
+
+    .proxi {
+        font-size: 1.25rem;
+    }
 }
 
 
-.html {
-    font-size: 1.25rem;    
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 2rem;
+        gap: 20px;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .html {
+        font-size: 1.1rem;
+        padding: 0 30px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        margin: 0 50px;
+        margin-top: 60px;
+        padding-left: 30px;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        margin-left: 50px;
+        padding-left: 30px;
+    }
+
+    .titulo, .basico, .para, .img, .li, .lis, .bot, .lin,
+    .di, .sec, strong, .lit {
+        font-size: 1.1rem;
+        padding: 20px 50px;
+        margin: 0 50px;
+    }
+
+    .codi {
+        font-size: 1.25rem;
+        padding: 60px;
+        margin: 0 50px;
+    }
+
+    .video iframe {
+        width: 85%;
+        height: 350px;
+    }
+
+    .proxi {
+        font-size: 1.1rem;
+        padding: 15px 20px;
+    }
 }
 
-h2{
-    font-size: 1.25rem;
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 15%;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        margin-top: 40px;
+        gap: 15px;
+        line-height: 1.4;
+    }
+
+    .html {
+        font-size: 1rem;
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin: 0 20px;
+        margin-top: 50px;
+        padding: 15px 20px;
+    }
+
+    h3 {
+        font-size: 1rem;
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+
+    .titulo, .basico, .para, .img, .li, .lis, .bot, .lin,
+    .di, .sec, strong, .lit {
+        font-size: 1rem;
+        padding: 15px 20px;
+        margin: 0 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .codi {
+        font-size: 1rem;
+        padding: 30px 20px;
+        margin: 0 20px;
+    }
+
+    .video iframe {
+        width: 95%;
+        height: 220px;
+    }
+
+    .proxi {
+        font-size: 1rem;
+        padding: 12px 20px;
+        gap: 8px;
+    }
+
+    .seta {
+        width: 35px;
+        height: 35px;
+    }
 }
 
-h3 {
-     font-size: 1.25rem;
-}
 
-.titulo, .basico, .para, .img, .li, .lis, .bot, .lin,
-.di, .sec{
-    font-size: 1.25rem;
-   
-}
+@media (max-width: 480px) {
 
-.codi{
-    font-size: 1.5rem;
-}
+    .logo {
+        width: 20%;
+        margin: 15px;
+    }
 
-strong  {
-    font-size: 1.25rem;
-}
+    h1 {
+        font-size: 1.3rem;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
 
-.li,
-.lit{
-    font-size: 1.25rem;
-}
+    .html {
+        font-size: 0.9rem;
+        padding: 0 15px;
+    }
 
+    h2 {
+        font-size: 0.9rem;
+        margin: 0 12px;
+        margin-top: 40px;
+        padding: 12px 15px;
+        border-radius: 24px;
+    }
 
-.proxi {
-    font-size: 1.25rem;
-}
+    h3 {
+        font-size: 0.9rem;
+        margin-left: 12px;
+        padding-left: 15px;
+    }
+
+    .titulo, .basico, .para, .img, .li, .lis, .bot, .lin,
+    .di, .sec, strong, .lit {
+        font-size: 0.9rem;
+        padding: 12px 15px;
+        margin: 0 12px;
+        border-radius: 24px;
+    }
+
+    .codi {
+        padding: 20px 15px;
+        margin: 0 12px;
+        border-radius: 24px;
+    }
+
+    .video iframe {
+        height: 180px;
+    }
+
+    .proxi {
+        width: calc(100% - 24px);
+        margin-left: 12px;
+        margin-right: 12px;
+        justify-content: center;
+        font-size: 0.9rem;
+    }
 }

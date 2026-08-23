@@ -1,7 +1,3 @@
-<!-- Tirar os <p> dos <code>
-      Arrumar alguns erros -->
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,9 +16,9 @@
 
        
         <h1><span>JavaScript (JS)</span> - O Comando de Todo Site</h1>
-        <p class="js">
+        <h3 class="js">
             JavaScript (JS) é uma linguagem de programação usada para adicionar interatividade às páginas web. Enquanto o HTML cria a estrutura e o CSS define a aparência, o JavaScript faz o site "ganhar vida".
-        </p>
+        </h3>
         
         <h2>Como adicionar JavaScript ao HTML</h2>
         <section class="adicionar">
@@ -110,11 +106,11 @@
        <h2>Operadores Matemáticos</h2>
        <section class="mate">
         <p>
-            <span>let soma = </span> 5 + 3;<br>
-            <span>let subtração = </span> 5 - 3;<br>
-            <span>let multiplicação = </span> 5 * 3; <br>
-            <span>let divisão = </span> 5 / 3;<br>
-            <span>let resto = </span> 5 % 3;<br>
+            <span>let soma = </span> 5 + 3;
+            <span>let subtração = </span> 5 - 3;
+            <span>let multiplicação = </span> 5 * 3;
+            <span>let divisão = </span> 5 / 3;
+            <span>let resto = </span> 5 % 3;
         </p>
        </section>
 
@@ -122,37 +118,32 @@
        <section class="condicionais">
        <section class="if">
         <h3>if</h3>
-        <p>
-            <code>
+        <code>
             <pre>
                  <span>let idade = 18;</span>
                  <span>if (idade>=18){
                 console.log("</span><strong>Maior de idade</strong><span>");
                 }</span>
             </pre>
-            </code>
-        </p>
+        </code>
         <p>Se a condição for verdadeira, executa o código.</p>
        </section>
 
        <section class="if e else">
-        <p>
-            <code>
+        <code>
             <pre>
                 <span>if (idade >= 18) {</span>
                     <span>console.log("</span><strong>Maior</strong> <span>");
                 <span>} else{</span>  
                     console.log("</span><strong>Menor</strong><span>");</span>
                  <span>}</span>
-            </pre>
-            </code>
-        </p>
+           </pre>
+        </code>
        </section>
 
        <section class="if, else if e else">
-        <p>
-            <code> 
-            <pre>
+        <code> 
+         <pre>
             <span>let nota=7;</span>
 
             <span>if(nota>=9){
@@ -162,9 +153,8 @@
             } else {
                 console.log("</span> Reprovado <span>");
             }</span>
-            </pre>
-            </code>
-        </p>
+          </pre>
+        </code>
        
        </section>
        </section>
@@ -195,31 +185,25 @@
 
        <h3>AND (&&)</h3>
        <section class="and">
-         <p>
-            <span>
-             <code>if(idade &gt;= 18)</code>
-            </span>
-         </p>
+         <span>
+            <code>if(idade &gt;= 18)</code>
+         </span>
          <p>As duas condições devem ser verdadeiras</p>
        </section>
 
        <h3>OR (||)</h3>
        <section class="or">
-        <p>
-          <span>
-             <code>if (idade &lt; 18 || idade &gt; 60)</code>
-          </span>
-        </p>
+        <span>
+            <code>if (idade &lt; 18 || idade &gt; 60)</code>
+        </span>
         <p>Uma das condições deve ser verdadeira.</p>
        </section>
 
        <h3>NOT (!)</h3>
        <section class="not">
-        <p>
-            <span>
-                <code>if(!aprovado)</code>
-            </span>
-        </p>
+        <span>
+            <code>if(!aprovado)</code>
+        </span>
         <p>Inverte o valor.</p>
        </section>
 
@@ -244,8 +228,7 @@
 
        <h3>while</h3>
        <section class="while">
-        <p>
-        <span>
+       <span>
             <pre><code>
                 let i = 1; 
                 
@@ -255,14 +238,12 @@
                 }
             </code></pre>
        </span>
-        </p>
          <p>Repete enquanto a condição for verdadeira.</p>
        </section>
 
        <h3>do while</h3>
        <section class="doWhile">
-       <p>
-        <pre>
+       <pre>
             <code>
                 <span>
            let i = 1; 
@@ -274,7 +255,6 @@
                 </span>
             </code>
         </pre>
-       </p>
         <p>Execute pelo menos uma vez.</p>
        </section>
 
@@ -282,7 +262,7 @@
        <h2>Funções</h2>
        <h3>São blocos de códigos reutilizáveis.</h3>
        <section class="blocos">
-        <p>        <pre>
+        <pre>
             <code>
                 <span>
             function saudacao(){
@@ -306,18 +286,16 @@
                 <span>Arrays</span>
                 <span>let cores = </span>["Azul", "Vermelho", "Verde"];
             </code>
-        </p></p>
+        </p>
        </section>
 
        <h3>Acessar elemento:</h3>
        <section class="elemento">
-        <p>
         <code>
             <span>
                 console.log(cores[0]);
             </span>
         </code>
-        </p>
        </section>
 
        <h3>Resultado:</h3>
@@ -330,94 +308,84 @@
 
        <h3>Adicionar:</h3>
        <section class="adicionar">
-        <p>
-            <code>
-                <span>
-                cores.push("Amarelo");
-                </span>
-            </code>
-        </p>
+        <code>
+            <span>
+            cores.push("Amarelo");
+            </span>
+        </code>
        </section>
 
        <h3>Remover último:</h3>
        <section class="remover">
-        <p>
-            <code>
-                <span>
-                cores.pop();
-                </span>
-            </code>
-        </p>
+        <code>
+            <span>
+            cores.pop();
+            </span>
+        </code>
        </section>
 
        <h3>Quantidade:</h3>
        <section class="quantidade">
-        <p>
-            <pre>
-                <code>
-                    <span>
-                console.log(cores.length);
-                Objetos
-                let aluno = {
-                    nome: "Ana",
-                    idade:16,
-                    turma:"3A"
-                };
-                    </span>
-                </code>
-            </pre>
-        </p>
+        <pre>
+            <code>
+                <span>
+            console.log(cores.length);
+            Objetos
+            let aluno = {
+                nome: "Ana",
+                idade:16,
+                turma:"3A"
+            };
+                </span>
+            </code>
+        </pre>
        </section>
 
        <h3>Acessar:</h3>
        <section class="acessar">
-        <p>
-            <pre>
-                <code>
-                    <span>
-                console.log(aluno.nome);
-                DOM(Document Objetc Model)
-                    </span>
-                </code>
-            </pre>
-        </p>
+        <pre>
+            <code>
+                <span>
+            console.log(aluno.nome);
+            DOM(Document Objetc Model)
+                </span>
+            </code>
+        </pre>
         <p>O DOM permite manipular elementos HTML. </p>
        </section>
 
        <h2>Temporizadores</h2>
        <h3>setTimeout</h3>
        <section class="set">
-        <p>
-            <pre>
-                <code>
-                    <span>
-                setTimeout(()→{
-                alert("Passaeam 3 segundos");
-                },3000);
-                setInterval
-                    </span>
-                </code>
-            </pre>
-        </p>
+        <pre>
+            <code>
+                <span>
+            setTimeout(()→{
+               alert("Passaeam 3 segundos");
+            },3000);
+            setInterval
+                </span>
+            </code>
+        </pre>
         <p>Executa uma vez.</p>
        </section>
 
        <h3>Executa Repetidamente.</h3>
        <section class="repe">
-        <p>
+        <pre>
+            <code>
+                <span>
             <pre>
-                <code>
-                    <span>
                 setInterval(() => {
-                console.log("Executando...");
-                }, 1000);
-                Template String
-                let nome = "Pedro";
-                console.log(`Olá ${nome}`);
-                    </span>
-                </code>
+                    console.log("Executando...");
+                    }, 1000);
+                    Template String
+                    let nome = "Pedro";
+                    console.log(`Olá ${nome}`);
             </pre>
-        </p>
+                </span>
+            </code>
+        </pre>
 
         <p><span>Resultado:</span> </p>
         <p>Olá Pedro <br>
