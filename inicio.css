@@ -32,20 +32,7 @@ h1 {
     font-family: "Montserrat", sans-serif;
 }
 
-h2, h3 {
-    color: #fff;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-}
 
-p {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    display: block;
-    margin: 10px 0;
-}
 h1 span {
     background: linear-gradient(
         90deg,
@@ -57,7 +44,7 @@ h1 span {
     -webkit-text-fill-color: transparent;
 }
 
-.escolha, .escolha2{
+.escolha, .escolha2, .de{
     font-size:  1.5rem;
     color: #fff;
     display: flex;
@@ -75,44 +62,6 @@ h1 span {
     gap: 70px;              
     margin: 150px  40px  40px; 
 
-}
-
-.grade2 {
-    display: block;
-    width: 90%;
-    max-width: 1000px;
-    margin: 80px auto;
-    text-align: center;
-}
-
-.grade2 h2,
-.grade2 h3 {
-    display: block;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 20px;
-}
-
-.grade2 p {
-    display: block;
-    color: #fff !important;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px !important;
-    line-height: 1.6;
-    margin: 15px 0;
-    visibility: visible;
-    opacity: 1;
-}
-
-.grade2 ul {
-    display: block;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    text-align: left;
-    width: fit-content;
-    margin: 15px auto;
 }
 
 .html, .css, .js {
@@ -197,6 +146,12 @@ h1 span {
 
 
 
+.co {
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
 
 
 
@@ -218,7 +173,7 @@ h1{
 
 
 
-.escolha, .escolha2 {
+.escolha, .escolha2, .de {
     font-size:  1.25rem;
 
 }
