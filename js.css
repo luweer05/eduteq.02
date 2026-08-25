@@ -63,16 +63,17 @@ h1 span
     padding: 0 40px;    
 }
 
-h2{
+h2 {
     background-color: #0c0e1a;
     border: 1px solid #1e2235;
-    font-size: 2.7rem;
-    color: #ffffff;
-    margin: 100px 150px 0;
+    font-size: 1.5rem;
+    color: #bbbbbb;
+    margin: 100px 100px 0;
     line-height: 1.8;
-    padding-left: 50px;
+    padding-inline: 50px;
+    font-family: "Poppins", sans-serif;
     border-radius: 50px;
-     font-family: "Montserrat", sans-serif;
+    width: fit-content;
 }
 
 h3 {

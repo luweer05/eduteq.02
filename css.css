@@ -67,18 +67,16 @@ h1 span
 }
 
 
-h2{
-   background-color: #0c0e1a; 
-    border: 1px solid #1e2235; 
+h2 {
+    background-color: #0c0e1a;
+    border: 1px solid #1e2235;
     font-size: 1.5rem;
     color: #bbbbbb;
-    margin: 0 200px; 
+    margin: 100px 100px 0;
     line-height: 1.8;
-    margin-bottom: 20px;
-    margin-top: 100px;
     padding-inline: 50px;
-    font-family: "Poppins", sans-serif; 
-    border-radius: 50px; 
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
     width: fit-content;
 }
 
