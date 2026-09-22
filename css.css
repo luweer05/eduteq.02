@@ -22,17 +22,15 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 .logo:hover{
     transform: translateY(-20px);
     box-shadow: 0 20px 50px rgb(0, 195, 255); 
 }
 
-
 h1{
     font-size: 4.5rem;
     color: #fff;
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.8;
@@ -42,7 +40,6 @@ h1{
     font-family: "Montserrat", sans-serif;
 
 }
-
 
 h1 span
 {
@@ -56,7 +53,6 @@ h1 span
     -webkit-text-fill-color: transparent;
 }
 
-
 .css {
     color: #b0b5c1;
     font-size: 1.25rem;
@@ -65,7 +61,6 @@ h1 span
     text-align: center;    
     padding: 0 40px;       
 }
-
 
 h2 {
     background-color: #0c0e1a;
@@ -80,7 +75,6 @@ h2 {
     width: fit-content;
 }
 
-
 h3 {
     font-size: 1.15rem;
     color: #bbbbbb;
@@ -91,9 +85,8 @@ h3 {
     font-family: "Montserrat", sans-serif;
 }
 
-
 .basico, .forma, .tipo, .ex, .codi {
-      color: #c0c0c0;
+    color: #c0c0c0;
     font-size: 1.25rem;
     line-height: 1.6;
     margin-bottom: 40px;
@@ -103,16 +96,13 @@ h3 {
     border: 1px solid #1e2235;
     margin: 0 200px; 
     font-family: "Poppins", sans-serif;   
-     border-radius: 50px; 
+    border-radius: 50px; 
 }
-
-
 
 .basico span, 
 .forma span,
 .tipo span,
 .ex span{
-    
     background: linear-gradient(
         90deg,
         hsl(256, 100%, 71%),
@@ -122,24 +112,22 @@ h3 {
     -webkit-text-fill-color: transparent;
 }
 
-
 .roxo span {
    
-       background:   #bf00ff;
-        -webkit-background-clip: text;
+    background: #bf00ff;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
 
 .fim span{
-      background:   #00bbff;
-        -webkit-background-clip: text;
+    background:   #00bbff;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-
 .codi{
-     color: #c0c0c0;
+    color: #c0c0c0;
     font-size: 1.25rem;
     line-height: 1.6;
     margin-bottom: 45px;
@@ -153,10 +141,8 @@ h3 {
     align-items: center;
     padding: 200px;
     font-family: "Poppins", sans-serif; 
-     border-radius: 50px;   
+    border-radius: 50px;   
 }
-
-
 
 .video {
     width: 100%;
@@ -178,7 +164,6 @@ h3 {
     display: block;
 }
 
-
 .proxi {
     margin-top: 90px;
     margin-bottom: 50px;
@@ -192,7 +177,6 @@ h3 {
     cursor: pointer;
     color: #ffffff;
     font-size: 1.15rem;
-  
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -212,17 +196,11 @@ h3 {
 
 
 
-
-
-
-
 @media (max-width: 1440px){
    
-
 h1{
     font-size: 2.5rem;
 }
-
 
 .html {
     font-size: 1.25rem;    
@@ -233,21 +211,18 @@ h2{
 }
 
 h3 {
-     font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .basico, .forma, .tipo, .ex, .codi{
-     font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .codi{
     font-size: 1.5rem;
 }
 
-
 .proxi {
     font-size: 1.25rem;
 }
 }
-
-
