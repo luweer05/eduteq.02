@@ -32,7 +32,7 @@ main {
    display: flex;
    justify-content: center;
    align-items: center;
-   font-size: 3.5;
+   font-size: 1rem;
    color: #fff;
    margin-top: 30px;
    font-family: "Poppins", sans-serif; 
@@ -46,6 +46,7 @@ main {
     border-radius: 24px;
     padding: 70px;
     margin:  130px 130px 0;
+    margin-bottom: 30px;
    transition: all 0.2s ease;
 }
 
@@ -73,7 +74,7 @@ main {
 }
 
 .pergunta {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-top: 40px;
     margin-bottom: 50px;
     color: #acacac;
@@ -93,7 +94,7 @@ main {
 
 .codigo code {
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
 }
 
@@ -151,34 +152,88 @@ main {
 }
 
 
+.botao-opcao.certo {
+    background-color: rgba(100, 255, 100, 0.25);
+    border: 2px solid #8cff8c;
+}
 
-.proxi {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #0c0e1a;
-    border: 1px solid #1e2235;
-    border-radius: 80px;
+
+
+
+.botao-opcao.errado {
+    background-color: rgba(255, 80, 80, 0.25);
+    border: 2px solid #ff8080;
+}
+
+
+
+
+.alerta {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 500px;
+    padding: 50px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    z-index: 10;
+}
+
+
+
+
+.alerta h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.alerta p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+.acerto {
+    background-color: #d9ffcc;
+}
+
+.acerto h2 {
+    color: #18751c;
+}
+
+
+
+
+.erro {
+    background-color: #ffcaca;
+}
+
+.erro h2 {
+    color: #c92b2b;
+}
+
+
+.avancar {
+    background-color: #663cff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 25px;
+    font-size: 12px;
     cursor: pointer;
-    color: #ffffff;
-    font-size: 1.15rem;
-  
-    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-top: 15px;
 }
 
-.proxi:hover {
-    background-color: #006aff;
-}
-
-.seta {
-    width: 40px;
-    height: 40px;
-}
-
-.pro {
-    text-decoration: none;
-    cursor: pointer;
+.avancar:hover {
+    background-color: #5125d8;
 }
