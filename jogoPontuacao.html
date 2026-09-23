@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Overlay de Acerto e Erro</title>
+    <title>Resultado do Quiz</title>
      <link rel="stylesheet" href="pontuacao.css">
     <script src="pontuacao.js" defer></script>
 
@@ -15,28 +15,28 @@
        <img src="./imagens/logo.dev.png" class="logo" alt="logo">
       </header>
 
-    <div class="conteudo-do-site">
-        <h2>Meu Jogo / Meu Site</h2>
-        <p>Este é o conteúdo normal da sua página.</p>
-        <button onclick="mostrarTela('acerto')">Simular Acerto</button>
-        <button onclick="mostrarTela('erro')">Simular Erro</button>
-    </div>
+    <main class="pagina-resultado">
+        <fieldset class="painel-pontuacao">
+            <legend>RESULTADO</legend>
+            <h2>Resultado do quiz</h2>
+            <p id="resultado">Calculando sua pontuação...</p>
+            <button class="btn-reiniciar" onclick="reiniciarQuiz()">Jogar novamente</button>
+        </fieldset>
+    </main>
 
 
     <div id="meuOverlay" class="fundo-escuro-overlay">
         
      
         <div id="telaAcerto" class="card acerto">
-            <h1>VOCÊ ACERTOU!</h1>
-            <p>Avance para o próximo level</p>
-            <button class="btn-avancar" onclick="fecharTela()">Avançar &rarr;</button>
+        <h1>QUIZ FINALIZADO!</h1>
+            <button class="btn-avancar" onclick="fecharTela()">Ver resultado</button>
         </div>
 
         
         <div id="telaErro" class="card erro">
-            <h1>VOCÊ ERROU!</h1>
-            <p>Não se preocupe, você consegue!</p>
-            <button class="btn-avancar" onclick="fecharTela()">Avançar &rarr;</button>
+            <h1>QUIZ FINALIZADO!</h1>
+            <button class="btn-avancar" onclick="fecharTela()">Ver resultado</button>
         </div>
 
     </div>
