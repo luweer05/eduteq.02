@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
     background-color: #000215;
     font-family: "Inter", sans-serif;
+    margin: 5px;
 }
 
-
+main {
+    margin: 55px;
+}
 
 .logo {
+    width: 15%;
+    margin-top: 25px;
     cursor: pointer;
     border-radius: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    width: 10%;
-    height: auto;
-    margin: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .logo:hover{
@@ -30,7 +28,7 @@ body {
 }
 
 h1 {
-    font-size: 4.7rem;
+    font-size: 3.7rem;
     color: #fff;
     display: flex;
     justify-content: center;
